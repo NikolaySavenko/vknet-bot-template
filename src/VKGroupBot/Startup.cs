@@ -2,14 +2,22 @@ using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.Extensions.DependencyInjection;
+using VkNet;
+using VkNet.Abstractions;
+using VkNet.Model;
 
-namespace AspNetCoreDemoApp
+namespace VKGroupBot
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
             services
+                .AddSingleton<IVkApi>(sp => {
+                    var api = new VkApi();
+                    api.Authorize(new ApiAuthParams{ AccessToken = Environment.GetEnvironmentVariable("vk_token") });
+                    return api;
+                })
                 .AddHttpsRedirection(options => { options.HttpsPort = 443; })
                 .AddMvcCore()
                 .AddCors(options =>

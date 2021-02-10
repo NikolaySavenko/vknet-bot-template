@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace AspNetCoreDemoApp
+namespace VKGroupBot
 {
     public class Program
     {
