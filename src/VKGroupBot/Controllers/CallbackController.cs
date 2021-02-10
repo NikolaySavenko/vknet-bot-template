@@ -33,7 +33,7 @@ namespace VKGroupBot.Controllers
         [HttpPost]
         public IActionResult Callback([FromBody] JsonElement body)
         {
-             string response = "";
+             string response = "ok";
 
              string type = body.GetProperty("type").GetString();
              if (type == "confirmation")
