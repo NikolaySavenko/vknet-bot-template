@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using VkNet.Abstractions;
 using VkNet.Model;
 using VkNet.Model.RequestParams;
 using VkNet.Utils;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using VkNet.Enums.SafetyEnums;
+using VkNet.Model.GroupUpdate;
+
 namespace VKGroupBot.Controllers
 {
     [Route("api/[controller]")]
@@ -25,31 +31,34 @@ namespace VKGroupBot.Controllers
         }
 
         [HttpPost]
-        public IActionResult Callback([FromBody] Updates updates)
+        public IActionResult Callback([FromBody] JsonElement body)
         {
-            // Проверяем, что находится в поле "type"
-            switch (updates.Type)
-            {
-                // Если это уведомление для подтверждения адреса
-                case "confirmation":
-                    // Отправляем строку для подтверждения
-                    // Environment.GetEnvironmentVariable("vk_response")
-                    return Ok(Environment.GetEnvironmentVariable("vk_response"));
-                case "message_new":{
-                    // Десериализация
-                    var msg = Message.FromJson(new VkResponse(updates.Object));
+             string response = "";
 
-                    // Отправим в ответ полученный от пользователя текст
-                    _vkApi.Messages.Send(new MessagesSendParams{
-                        RandomId = new DateTime().Millisecond,
-                        PeerId = msg.PeerId.Value,
-                        Message = msg.Text
-                    });
-                    break;
-                }
-            }
-            // Возвращаем "ok" серверу Callback API
-            return Ok("ok");
+             string type = body.GetProperty("type").GetString();
+             if (type == "confirmation")
+                 response = Environment.GetEnvironmentVariable("vk_response");
+             else if (type == "message_new")
+             {
+                 try
+                 {
+                     Message message = JsonConvert.DeserializeObject<Message>(body.GetProperty("object")
+                         .GetProperty("message")
+                         .ToString());
+                     _vkApi.Messages.Send(new MessagesSendParams
+                     {
+                         RandomId = new DateTime().Millisecond,
+                         PeerId = message.PeerId.Value,
+                         Message = message.Text
+                     });
+                 }
+                 finally
+                 {
+                     Console.WriteLine("looks like finally");
+                 }
+                 // response = "so_what?";
+             }
+             return Ok(response);
         }
     }
 }
