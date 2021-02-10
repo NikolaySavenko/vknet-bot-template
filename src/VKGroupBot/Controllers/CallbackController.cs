@@ -34,7 +34,7 @@ namespace VKGroupBot.Controllers
                 case "confirmation":
                     // Отправляем строку для подтверждения
                     // Environment.GetEnvironmentVariable("vk_response")
-                    return Ok("YES");
+                    return Ok(Environment.GetEnvironmentVariable("vk_response"));
                 case "message_new":{
                     // Десериализация
                     var msg = Message.FromJson(new VkResponse(updates.Object));

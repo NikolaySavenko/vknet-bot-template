@@ -23,14 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcad2b51-eacf-4fa0-a770-40c1386c15e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VKGroupBot/Controllers/Updates.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Controllers/ValuesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/VKGroupBot/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/VKGroupBot/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +35,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Git_Projects/VKGroupBot/src/VKGroupBot/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Git_Projects/VKGroupBot/src/VKGroupBot/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Git_Projects/VKGroupBot/src/VKGroupBot/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,8 +103,16 @@
       <option name="presentableId" value="Default" />
       <updated>1612957041963</updated>
       <workItem from="1612957046908" duration="908000" />
-      <workItem from="1612958576379" duration="3356000" />
+      <workItem from="1612958576379" duration="4237000" />
     </task>
+    <task id="LOCAL-00001" summary="try to make VK response">
+      <created>1612962332816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612962332816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="try to make VK response" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to make VK response" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="348" width="1101" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612961186014">
@@ -141,22 +146,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="690" y="387" key="EnvironmentVariablesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1612961182424" />
-    <state width="1662" height="351" key="GridCell.Tab.0.bottom" timestamp="1612961890589">
+    <state width="1662" height="351" key="GridCell.Tab.0.bottom" timestamp="1612962011911">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1662" height="351" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1612961890589" />
-    <state width="1662" height="351" key="GridCell.Tab.0.center" timestamp="1612961890589">
+    <state width="1662" height="351" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1612962011911" />
+    <state width="1662" height="351" key="GridCell.Tab.0.center" timestamp="1612962011911">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1662" height="351" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1612961890589" />
-    <state width="1662" height="351" key="GridCell.Tab.0.left" timestamp="1612961890589">
+    <state width="1662" height="351" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1612962011911" />
+    <state width="1662" height="351" key="GridCell.Tab.0.left" timestamp="1612962011911">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1662" height="351" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1612961890589" />
-    <state width="1662" height="351" key="GridCell.Tab.0.right" timestamp="1612961890589">
+    <state width="1662" height="351" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1612962011911" />
+    <state width="1662" height="351" key="GridCell.Tab.0.right" timestamp="1612962011911">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1662" height="351" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1612961890589" />
+    <state width="1662" height="351" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1612962011911" />
     <state width="1662" height="506" key="GridCell.Tab.1.bottom" timestamp="1612961564149">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -221,6 +226,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1662" height="506" key="GridCell.Tab.4.right/0.0.3440.1400@0.0.3440.1400" timestamp="1612961564150" />
+    <state x="352" y="370" key="Vcs.Push.Dialog.v2" timestamp="1612962377803">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="352" y="370" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1612962377803" />
     <state x="1143" y="324" width="840" height="1034" key="search.everywhere.popup" timestamp="1612958851189">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
