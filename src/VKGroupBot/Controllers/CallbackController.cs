@@ -50,7 +50,7 @@ namespace VKGroupBot.Controllers
                      {
                          foreach (var key in Request.Headers.Keys)
                          {
-                             msg += $"{Request.Headers[key].ToString()}\n";
+                             msg += $"{key}: {Request.Headers[key].ToString()}\n";
                          }
                          response = "not_ok(";
                      }
