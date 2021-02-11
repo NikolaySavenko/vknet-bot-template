@@ -1,6 +1,6 @@
 # ASP.NET Core VK Bot
 ### Description
-Later...
+Configure vk_response and vk_token at heroku Config Vars then try to start
 ### Heroku Deploy button
 
 Click the button below to set up this sample app on Heroku:
