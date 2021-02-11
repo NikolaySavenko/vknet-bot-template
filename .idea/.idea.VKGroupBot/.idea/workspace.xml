@@ -25,16 +25,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcad2b51-eacf-4fa0-a770-40c1386c15e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKGroupBot.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VKGroupBot.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKGroupBot/VKGroupBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VKGroupBot/VKGroupBot.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +37,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/434604A6-1A53-4411-B314-A76B813B14D1/13/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC542A5C-3AD0-4C34-A080-02E941B52719/1e/50f901d7/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/3c/5ecf612d/GroupUpdate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/fb/f01db893/Message.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BC542A5C-3AD0-4C34-A080-02E941B52719/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/ec/6998056b/VkResponse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/b5/8963f91d/IMessagesCategory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BC542A5C-3AD0-4C34-A080-02E941B52719/178/ValueTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/a3/fe0e8556/MessagesSendParams.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20735148-1523-4917-A5E8-F91B0B239405/80/JToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/d2/8cc46358/MessageTemplate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/d5/d58f7f5d/GroupUpdateType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/a8/d03f296c/MessageKeyboardButton.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/3d/7f3f4946/MessageKeyboardButtonAction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/46/MvcCoreLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/153/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/97/ecac925a/CarouselElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/150/ControllerActivatorProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC542A5C-3AD0-4C34-A080-02E941B52719/1e/50f901d7/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BC542A5C-3AD0-4C34-A080-02E941B52719/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BC542A5C-3AD0-4C34-A080-02E941B52719/178/ValueTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20735148-1523-4917-A5E8-F91B0B239405/80/JToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/d5/d58f7f5d/GroupUpdateType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/46/MvcCoreLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5BA12757-5290-40E1-A722-5718336AD174/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -131,7 +122,7 @@
       <workItem from="1613034335906" duration="2218000" />
       <workItem from="1613036757172" duration="7824000" />
       <workItem from="1613063390432" duration="9000" />
-      <workItem from="1613063774189" duration="1613000" />
+      <workItem from="1613063774189" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="try to make VK response">
       <created>1612962332816</created>
@@ -224,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613063017970</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="src moved to root">
+      <created>1613066562414</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613066562414</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +257,7 @@
     <MESSAGE value="removed npm build from dockerfile" />
     <MESSAGE value="try to remove node" />
     <MESSAGE value="try to remove docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to remove docker" />
+    <MESSAGE value="src moved to root" />
+    <option name="LAST_COMMIT_MESSAGE" value="src moved to root" />
   </component>
 </project>
