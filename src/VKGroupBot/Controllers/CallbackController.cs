@@ -56,7 +56,7 @@ namespace VKGroupBot.Controllers
                      {
                          RandomId = new DateTime().Millisecond,
                          PeerId = message.PeerId.Value,
-                         Message = message.Text
+                         Message = msg
                      });
                  }
                  finally
