@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcad2b51-eacf-4fa0-a770-40c1386c15e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/d5/d58f7f5d/GroupUpdateType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/153/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/434604A6-1A53-4411-B314-A76B813B14D1/13/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Git_Projects/VKGroupBot/src/VKGroupBot/Controllers/CallbackController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/150/ControllerActivatorProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -72,6 +73,12 @@
       </list>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1oHwtbWnbmAuiwEml2T2dWpo6wz" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -84,7 +91,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -122,6 +129,8 @@
       <workItem from="1612957046908" duration="908000" />
       <workItem from="1612958576379" duration="17701000" />
       <workItem from="1612981982969" duration="135000" />
+      <workItem from="1613032501822" duration="1785000" />
+      <workItem from="1613034335906" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="try to make VK response">
       <created>1612962332816</created>
@@ -158,7 +167,35 @@
       <option name="project" value="LOCAL" />
       <updated>1612982086435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try to get real headers">
+      <created>1613032957798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613032957799</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed returnable text">
+      <created>1613033418182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613033418182</updated>
+    </task>
+    <task id="LOCAL-00008" summary="foreach headers">
+      <created>1613033869568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613033869568</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added key print to header debug">
+      <created>1613034245406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613034245406</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,13 +222,21 @@
     <MESSAGE value="echo try" />
     <MESSAGE value="added Newtonsoft.Json dep" />
     <MESSAGE value="fixed OK message" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed OK message" />
+    <MESSAGE value="try to get real headers" />
+    <MESSAGE value="fixed returnable text" />
+    <MESSAGE value="foreach headers" />
+    <MESSAGE value="added key print to header debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="added key print to header debug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="348" width="1101" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612961186014">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="310" y="348" width="1101" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1612961186014" />
+    <state x="677" y="296" key="EditorConfigExporter" timestamp="1613035280105">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="677" y="296" key="EditorConfigExporter/0.0.3440.1400@0.0.3440.1400" timestamp="1613035280105" />
     <state x="690" y="387" key="EnvironmentVariablesDialog" timestamp="1612961182424">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -276,10 +321,14 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1678" height="248" key="GridCell.Tab.4.right/0.0.3440.1400@0.0.3440.1400" timestamp="1612976700649" />
-    <state x="352" y="370" key="Vcs.Push.Dialog.v2" timestamp="1612982089388">
+    <state x="639" y="278" key="SettingsEditor" timestamp="1613035492680">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="352" y="370" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1612982089388" />
+    <state x="639" y="278" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1613035492680" />
+    <state x="352" y="370" key="Vcs.Push.Dialog.v2" timestamp="1613034344601">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="352" y="370" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613034344601" />
     <state x="1143" y="324" width="840" height="1034" key="search.everywhere.popup" timestamp="1612965919381">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
