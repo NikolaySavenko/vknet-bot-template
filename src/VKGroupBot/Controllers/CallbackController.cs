@@ -48,7 +48,10 @@ namespace VKGroupBot.Controllers
                      string msg = message.Text;
                      if (msg == "headers")
                      {
-                         msg = Request.Headers.ToString();
+                         foreach (var key in Request.Headers.Keys)
+                         {
+                             msg += $"{Request.Headers[key].ToString()}\n";
+                         }
                          response = "not_ok(";
                      }
 
