@@ -23,9 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcad2b51-eacf-4fa0-a770-40c1386c15e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VKGroupBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/app.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +45,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/3c/5ecf612d/GroupUpdate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BC542A5C-3AD0-4C34-A080-02E941B52719/178/ValueTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BC542A5C-3AD0-4C34-A080-02E941B52719/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/fb/f01db893/Message.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/3d/7f3f4946/MessageKeyboardButtonAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/194/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/a8/d03f296c/MessageKeyboardButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5BA12757-5290-40E1-A722-5718336AD174/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20735148-1523-4917-A5E8-F91B0B239405/80/JToken.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/ec/6998056b/VkResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/97/ecac925a/CarouselElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC542A5C-3AD0-4C34-A080-02E941B52719/1e/50f901d7/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/46/MvcCoreLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/d2/8cc46358/MessageTemplate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/d5/d58f7f5d/GroupUpdateType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/a3/fe0e8556/MessagesSendParams.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/153/ControllerFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/434604A6-1A53-4411-B314-A76B813B14D1/13/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5C46A23-9118-4319-AA30-7E67E7A0A444/150/ControllerActivatorProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/3c/5ecf612d/GroupUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/b5/8963f91d/IMessagesCategory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20735148-1523-4917-A5E8-F91B0B239405/80/JToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C02903C9-65C8-4DAF-B8E6-67EE1326BC79/ec/6998056b/VkResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Git_Projects/VKGroupBot/src/VKGroupBot/Controllers/CallbackController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/434604A6-1A53-4411-B314-A76B813B14D1/13/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,15 +77,16 @@
         <option value="$PROJECT_DIR$/VKGroupBot.sln" />
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/appveyor.yml" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/src/VKGroupBot/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" />
         <option value="$PROJECT_DIR$/src/VKGroupBot/Controllers/YESContrroller.cs" />
         <option value="$PROJECT_DIR$/src/VKGroupBot/Startup.cs" />
         <option value="$PROJECT_DIR$/src/VKGroupBot/Controllers/Updates.cs" />
         <option value="$PROJECT_DIR$/src/VKGroupBot/Controllers/CallbackController.cs" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/src/VKGroupBot/VKGroupBot.csproj" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -130,7 +147,8 @@
       <workItem from="1612958576379" duration="17701000" />
       <workItem from="1612981982969" duration="135000" />
       <workItem from="1613032501822" duration="1785000" />
-      <workItem from="1613034335906" duration="1147000" />
+      <workItem from="1613034335906" duration="2218000" />
+      <workItem from="1613036757172" duration="6025000" />
     </task>
     <task id="LOCAL-00001" summary="try to make VK response">
       <created>1612962332816</created>
@@ -195,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613034245406</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed double message bug">
+      <created>1613035732184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613035732184</updated>
+    </task>
+    <task id="LOCAL-00011" summary="removed npm build from dockerfile">
+      <created>1613060199576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613060199576</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +258,9 @@
     <MESSAGE value="fixed returnable text" />
     <MESSAGE value="foreach headers" />
     <MESSAGE value="added key print to header debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="added key print to header debug" />
+    <MESSAGE value="fixed double message bug" />
+    <MESSAGE value="removed npm build from dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed npm build from dockerfile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="348" width="1101" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612961186014">
@@ -241,22 +275,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="690" y="387" key="EnvironmentVariablesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1612961182424" />
-    <state width="1678" height="351" key="GridCell.Tab.0.bottom" timestamp="1612976700652">
+    <state width="3385" height="245" key="GridCell.Tab.0.bottom" timestamp="1613060656448">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1678" height="351" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1612976700652" />
-    <state width="1678" height="351" key="GridCell.Tab.0.center" timestamp="1612976700651">
+    <state width="3385" height="245" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1613060656448" />
+    <state width="3385" height="245" key="GridCell.Tab.0.center" timestamp="1613060656447">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1678" height="351" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1612976700651" />
-    <state width="1678" height="351" key="GridCell.Tab.0.left" timestamp="1612976700651">
+    <state width="3385" height="245" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1613060656447" />
+    <state width="3385" height="245" key="GridCell.Tab.0.left" timestamp="1613060656447">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1678" height="351" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1612976700651" />
-    <state width="1678" height="351" key="GridCell.Tab.0.right" timestamp="1612976700651">
+    <state width="3385" height="245" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1613060656447" />
+    <state width="3385" height="245" key="GridCell.Tab.0.right" timestamp="1613060656448">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1678" height="351" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1612976700651" />
+    <state width="3385" height="245" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1613060656448" />
     <state width="1678" height="248" key="GridCell.Tab.1.bottom" timestamp="1612976700648">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -325,13 +359,13 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="639" y="278" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1613035492680" />
-    <state x="352" y="370" key="Vcs.Push.Dialog.v2" timestamp="1613034344601">
+    <state x="352" y="370" key="Vcs.Push.Dialog.v2" timestamp="1613060201706">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="352" y="370" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613034344601" />
-    <state x="1143" y="324" width="840" height="1034" key="search.everywhere.popup" timestamp="1612965919381">
+    <state x="352" y="370" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1613060201706" />
+    <state x="1143" y="324" width="840" height="1034" key="search.everywhere.popup" timestamp="1613060302822">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1143" y="324" width="840" height="1034" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1612965919381" />
+    <state x="1143" y="324" width="840" height="1034" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1613060302822" />
   </component>
 </project>

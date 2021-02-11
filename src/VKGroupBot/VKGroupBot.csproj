@@ -14,13 +14,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta1" />
     <PackageReference Include="VkNet" Version="1.59.0" />
   </ItemGroup>
-
-  <Target Name="PrePublishTarget" BeforeTargets="PrepareForPublish" Condition="$(DOTNET_RUNNING_IN_CONTAINER) != 'true'">
-    <Exec Command="npm install" />
-    <Exec Command="npm run build" />
-    <ItemGroup>
-      <Dist Include="../../build/**" />
-    </ItemGroup>
-    <Copy SourceFiles="@(Dist)" DestinationFolder="$(PublishDir)\wwwroot\%(RecursiveDir)" SkipUnchangedFiles="true" />
-  </Target>
 </Project>
