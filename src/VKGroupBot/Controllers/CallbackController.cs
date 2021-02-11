@@ -45,6 +45,13 @@ namespace VKGroupBot.Controllers
                      Message message = JsonConvert.DeserializeObject<Message>(body.GetProperty("object")
                          .GetProperty("message")
                          .ToString());
+                     string msg = message.Text;
+                     if (msg == "headers")
+                     {
+                         msg = Request.Headers.ToString();
+                         response = "not_ok(";
+                     }
+
                      _vkApi.Messages.Send(new MessagesSendParams
                      {
                          RandomId = new DateTime().Millisecond,
@@ -56,7 +63,6 @@ namespace VKGroupBot.Controllers
                  {
                      Console.WriteLine("looks like finally");
                  }
-                 // response = "so_what?";
              }
              return Ok(response);
         }
